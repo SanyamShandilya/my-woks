@@ -1,0 +1,6 @@
+f = open("DATA.txt")
+content = f.read()
+new = open("newfile.txt","x")
+new.write(content)
+f.close()
+new.close()
